@@ -9,11 +9,30 @@
     <link rel="stylesheet" href="{% static 'BI\BI_System\BI_App\static\BI_App\css\style.css' %}">
 </head>
 <body>
-    <div class="container">
+    <div class="dashboards">
         {% block dashboard %}
 
         {% endblock %}
     </div>
-  
+  <div class="preferences">
+    {% block preferences %}
+
+    {% endblock %}
+  </div>
+
+<div class="projects">
+    {% block projects %}
+
+    {% endblock %}
+  </div>
+
+
+<div class="resources">
+    {% block resources %}
+
+    {% endblock %}
+  </div>
+
+
 </body>
 </html>

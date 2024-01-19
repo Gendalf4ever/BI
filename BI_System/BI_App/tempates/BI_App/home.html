@@ -8,13 +8,13 @@
 <p>test</p>
 <p>test</p>
 
-<div class="dashboard">
-    <div class="graph">
+<button class="dashboards-button">
+<dt class = "dashboards-button-text">Дашборды</dt>
+</button>
+{% endblock %}
 
-    </div>
-    
-    <div class="map">
-    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/chasovnya_svyatoy_blazhennoy_ksenii/1067635993/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Часовня святой блаженной Ксении</a><a href="https://yandex.ru/maps/2/saint-petersburg/category/chapel_memorial_cross/228989640843/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Часовня, памятный крест в Санкт‑Петербурге</a><a href="https://yandex.ru/maps/2/saint-petersburg/category/religious_goods/184106300/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Религиозные товары в Санкт‑Петербурге</a><iframe src="https://yandex.ru/map-widget/v1/?ll=30.260062%2C59.940270&mode=poi&poi%5Bpoint%5D=30.251339%2C59.944303&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1067635993&z=15.2" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
-    </div>
-</div>
+{% block projects %}
+<button class="projects-button">
+<dt class = "projects-button-text">Проекты</dt>
+</button>
 {% endblock %}
